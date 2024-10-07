@@ -10,11 +10,11 @@ import Page4 from './Page4';
 ReactDOM.render(
   <Router>
     <Routes>
-        <Route path="/" element={<App />} />
-    <Route path="/Page1" element={<Page1 />} />
-    <Route path="/Page2" element={<Page2 />} />
-    <Route path="/Page3" element={<Page3 />} />
-    <Route path="/Page4" element={<Page4 />} />   
+        <Route path="/DeepSky" element={<App />} />
+        <Route path="/DeepSky/Page1" element={<Page1 />} />
+        <Route path="/DeepSky/Page2" element={<Page2 />} />
+        <Route path="/DeepSky/Page3" element={<Page3 />} />
+        <Route path="/DeepSky/Page4" element={<Page4 />} />   
     </Routes>
   </Router>,
   document.getElementById('root')

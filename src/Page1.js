@@ -6,7 +6,7 @@ function Page1() {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate('/Page2');
+      navigate('/DeepSky/Page2');
   };
 
   return (
